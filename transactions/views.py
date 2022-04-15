@@ -52,6 +52,7 @@ class SupplierCreateView(SuccessMessageMixin, CreateView):
         context = super().get_context_data(**kwargs)
         context["title"] = 'New Supplier'
         context["savebtn"] = 'Add Supplier'
+        print(context)
         return context     
 
 

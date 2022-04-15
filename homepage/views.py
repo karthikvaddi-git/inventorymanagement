@@ -25,3 +25,7 @@ class HomeView(View):
 
 class AboutView(TemplateView):
     template_name = "about.html"
+
+class ledger(TemplateView):
+    template_name="ledger.html"
+
